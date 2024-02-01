@@ -8,6 +8,6 @@ jobs: #Definición de los jobs
     runs-on: ubuntu-latest #Maquina en la que correrá
     container: node:18
     steps: #Lista de steps del job hola-mundo
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
       - name: Run index
         run: node index.js
